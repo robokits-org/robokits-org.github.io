@@ -32,3 +32,12 @@ a {
 #navbar a:hover {
 	border-bottom:2px solid white;
 }
+
+#text{
+	background-color:black;
+	color:white;
+	font-family: bahnschrift;
+	font-size:15px;
+	padding: 10px;
+	margin: 50px;
+}
