@@ -1,0 +1,34 @@
+body{
+	background-image: url("circuitboard.jpg");
+}
+
+#navbar{
+	text-align: center;
+	font-family: bahnschrift;
+	font-size: 20px;
+	padding-top: 25px;
+}
+
+#main_content{
+	color: white;
+	text-align: right;
+	font-family: bahnschrift;
+	font-size: 60px;
+	transform:translate(-50%, 40vh);
+}
+
+#see_kits_button{
+	font-size:25px;
+	border:2px solid white;
+	display:inline;
+	padding:3px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#navbar a:hover {
+	border-bottom:2px solid white;
+}
