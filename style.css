@@ -24,11 +24,17 @@ body{
 	}
 }
 
-#see_kits_button{
+#see_kits_button a{
 	font-size:25px;
 	border:2px solid white;
 	display:inline;
+	margin:0px;
 	padding:3px;
+}
+
+#see_kits_button  :hover{
+	background-color:white;
+	color:black;
 }
 
 a {
