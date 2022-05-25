@@ -15,125 +15,54 @@
 </head>
 
 <style>
-	body {
-	  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsilodrome.com%2Fwp-content%2Fuploads%2F2014%2F10%2FBatmobile-Blueprints-1480x885.jpg&f=1&nofb=1");
-	}
 
-	.title{
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		-moz-transform: translateX(-50%) translateY(-50%);
-		-webkit-transform: translateX(-50%) translateY(-50%);
-		transform: translateX(-50%) translateY(-50%);
-		text-align: center;
-		font-family: monospace;
-		padding: 10px;
-		color: white;
-		background-color: #333333;
-	}
-	h1,h2{
-		padding-top:0px;
-		padding-bottom:5px;
-		margin-top:0px;
-		margin-bottom:5px;
-		font-family: monospace;
-	}
+body{
+	background-image: url("circuitboard.jpg");
+}
 
-	/* We don't want any links to be underlined. Let's remove that globally */
-	a {
-		font-family: monospace;
-	  text-decoration: none;
-	  color: white;
-	}
-	.title a:hover{
-		 border-bottom: 1px solid white;    
-	}
+#navbar{
+	text-align: center;
+	font-family: bahnschrift;
+	font-size: 20px;
+	padding-top: 25px;
+}
 
-	.navbar {
-	  background-color: #333333;
-	  display: flex;
-	  /* let's align the items so everything is nice and centered */
-	  align-items: center;
-	}
+#main_content{
+	color: white;
+	text-align: right;
+	font-family: bahnschrift;
+	font-size: 60px;
+	transform:translate(-50%, 40vh);
+}
 
-	/* We want all links in the navbar to be #e7e7e7 */
-	.navbar a {
-	  color: #e7e7e7;
-	}
+#see_kits_button{
+	font-size:25px;
+	border:2px solid white;
+	display:inline;
+	padding:3px;
+}
 
-	.navbar ul {
-	 /* Let's reset the margin and padding of the list so it's is flush. */
-	  margin: 0;
-	  padding: 0;
-	  /* Let's remove the bullet points */
-	  list-style-type: none;
-	  /* display the list flex and align the items centered */
-	  display: flex;
-	  align-items:center;
-	}
+a {
+	text-decoration: none;
+	color: white;
+}
 
-	.navbar .brand {
-	  /*Let's make the anchor display block.
-		 This will ensure when we get the full width of the container.
-	  */
-	  display: block;
-	  color: #e7e7e7;
-	 /* Remove padding from top/bottom and add 24px padding right/left */
-	  padding: 0 24px;
-	  font-size: 24px;
-	}
-
-	.navbar ul li a {
-	  color: #e7e7e7;
-	  padding: 24px;
-	  /*Let's make the anchor display block.
-		 This will ensure when we hover, focus, or is active we get the full width and height 
-		  of the container.
-	  */
-	  display: block;
-	}
-
-	/* When a user hovers, focuses or if the link is active change the background */
-	.navbar ul a:hover,
-	.navbar ul a:focus,
-	.navbar ul .active {
-	  background-color: #272727;
-	}
-
-
-
+#navbar a:hover {
+	border-bottom:2px solid white;
+}
 
 
 </style>
 
 <body>
-	<nav class="navbar">
-	  <a class="brand active" href="#">⚙️<i>ROBOKITS</i></a>
-	  <ul>
-		<li>
-		  <a href="#">What we do</a>
-		</li>
-		<li>
-		  <a  href="#">See the kits</a>
-		</li>
-		<li>
-		  <a href="#">Tutorials</a>
-		</li>
-		<li>
-		  <a href="#">Contact Us</a>
-		</li>
-		<li>
-		  <a href="#">Donate</a>
-		</li>
-	  </ul>
-	</nav>
+<div id="navbar">
+<b><a href="http://www.example.com">ROBOKITS</a></b> &nbsp &nbsp <a href="http://www.example.com">what we do</a> &nbsp &nbsp <a href="http://www.example.com">see the kits</a> &nbsp &nbsp <a href="http://www.example.com">tutorials</a> &nbsp &nbsp <a href="http://www.example.com">contact us</a> &nbsp &nbsp <a href="http://www.example.com">donate</a>
+</div>
 
-  <div class="title">
-	  <i><h1 style="font-size:100px;">ROBOKITS</h1></i>
-	  <h1>because robots are COOL</h1>
-	  <h2><i><a href="http://www.example.com"> - see the kits - </a></i></h2>
-  </div>
+<div id="main_content">
+STEM KITS FOR<br>
+<b>EVERYONE</b><br>
+<p id="see_kits_button"><a href="http://www.example.com">see the kits</a></p>
+<div>
+
 </body>
-
-</html>
