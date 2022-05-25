@@ -14,7 +14,14 @@ body{
 	text-align: right;
 	font-family: 'Bahnschrift', sans-serif;
 	font-size: 60px;
-	transform:translate(-50%, 40vh);
+	transform:translate(-50%, 80%);
+}
+
+@media screen and (max-width: 900px) {
+	#main_content{
+		text-align: center;
+		transform:translateY(40%);
+	}
 }
 
 #see_kits_button{
