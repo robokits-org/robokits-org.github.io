@@ -1,5 +1,6 @@
 body{
-	background-image: url("circuitboard.jpg");
+	background-image: url("PIXNIO-2247216-6000x4000-2.jpg");
+	 background-size: cover;
 }
 
 #navbar{
@@ -56,6 +57,7 @@ body{
 }
 
 #see_kits_button  :hover{
+	text-shadow:none;
 	background-color:white;
 	color:black;
 }
@@ -80,9 +82,9 @@ a {
 }
 
 #main_content{
-	text-shadow: 0 0 10px black;
+	text-shadow: 0 0 2px black;
 }
 
 #navbar{
-	text-shadow: 0 0 10px black;
+	text-shadow: 0 0 2px black;
 }
