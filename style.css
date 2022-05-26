@@ -78,3 +78,11 @@ a {
 	padding: 10px;
 	margin: 50px;
 }
+
+#main_content{
+	text-shadow: 0 0 10px black;
+}
+
+#navbar{
+	text-shadow: 0 0 10px black;
+}
