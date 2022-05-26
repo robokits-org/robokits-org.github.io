@@ -3,10 +3,12 @@ body{
 }
 
 #navbar{
-	text-align: center;
+	justify-content: center;
 	font-family: 'Bahnschrift', sans-serif;
 	font-size: 20px;
 	padding-top: 25px;
+	display: flex;
+    align-items: flex-start;
 }
 
 #main_content{
@@ -22,6 +24,27 @@ body{
 		text-align: center;
 		transform:translateY(40%);
 	}
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: visible;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
 }
 
 #see_kits_button a{
@@ -44,6 +67,7 @@ a {
 
 #navbar a:hover {
 	border-bottom:2px solid white;
+	margin-bottom:-2px;
 }
 
 #text{
