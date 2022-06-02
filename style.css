@@ -1,7 +1,17 @@
-body{
-	background-image: url("PIXNIO-2247216-6000x4000-2.jpg");
-	 background-size: cover;
+#homepage{
+	background-image: url("background.jpg");
+	background-size: cover;
+	margin:0px;
+	padding:0px;
 }
+
+body {
+	background-color: lightgray;
+	background-size: cover;
+	margin:0px;
+	padding:0px;
+}
+
 
 #navbar{
 	justify-content: center;
@@ -38,6 +48,7 @@ body{
   overflow: visible;
 }
 .dropdown:hover .dropdown-content {
+	background-color: #252526;
   display: block;
 }
 .dropdown-content a {
@@ -72,13 +83,13 @@ a {
 	margin-bottom:-2px;
 }
 
+
 #text{
-	background-color:black;
-	color:white;
+	color:#252526;
 	font-family: 'Bahnschrift', sans-serif;
-	font-size:25px;
-	padding: 10px;
-	margin: 50px;
+	font-size:20px;
+	padding: 5px;
+	margin: 20px;
 }
 
 #main_content{
@@ -86,5 +97,16 @@ a {
 }
 
 #navbar{
+	background-image: url("banner.jpg");
+	background-size: cover;
+	padding-bottom: 20px;
 	text-shadow: 0 0 2px black;
+}
+
+html{
+	 overflow-y: scroll;
+}
+
+#main_page_navbar > #navbar{
+	background: none !important;
 }
