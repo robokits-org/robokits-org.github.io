@@ -88,8 +88,22 @@ a {
 	color:#252526;
 	font-family: 'Bahnschrift', sans-serif;
 	font-size:20px;
-	padding: 5px;
+	padding: 50px;
+	padding-right: 150px;
+	padding-left: 150px;
 	margin: 20px;
+}
+
+#text h2{
+	text-align: center;
+}
+
+#text img{
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	text-align: center;
 }
 
 #main_content{
